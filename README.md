@@ -21,11 +21,13 @@ This repository records parts of notes and codes that I wrote when I taught myse
 
     - Data Science
         - [ML Fundamentals](https://github.com/Flyangz/Data-Science-and-Engineering/tree/master/Data_Science_and_Engineering/Data_Science/Machine_Learning_Fundamentals)
-        - Notes from *ISLR*, *Hands-On Machine Learning with Scikit-Learn* and *Machine Learning Fundamentals edX*
+
+           Notes from *ISLR*, *Hands-On Machine Learning with Scikit-Learn* and *Machine Learning Fundamentals edX*
         - [Kaggle](https://github.com/Flyangz/Data-Science-and-Engineering/tree/master/Data_Science_and_Engineering/Data_Science/Kaggle)
 
-           - Titanic
-           - Bike Sharing Demand
+           Titanic
+
+           Bike Sharing Demand
 
 - Programming
     - [Python](https://github.com/Flyangz/Data-Science-and-Engineering/tree/master/Programming/Python)
