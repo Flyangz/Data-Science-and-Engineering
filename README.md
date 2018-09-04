@@ -17,7 +17,7 @@ This repository records parts of notes and codes that I wrote when I taught myse
 
            - [Project](https://github.com/Flyangz/Data-Science-and-Engineering/tree/master/Data_Science_and_Engineering/Data_Engineering/Spark/Project)
 
-             *Web Log Analysis Project* and *Streaming Process Project*
+             *Web Log Analysis Project*, *Streaming Process Project* and *Titanic in Spark*
 
     - Data Science
         - [ML Fundamentals](https://github.com/Flyangz/Data-Science-and-Engineering/tree/master/Data_Science_and_Engineering/Data_Science/Machine_Learning_Fundamentals)
