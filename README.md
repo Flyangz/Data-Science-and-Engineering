@@ -42,7 +42,7 @@ This repository records parts of notes and codes that I wrote when I taught myse
 
         Notes for using Spark
 
-    - [Algorithm](https://github.com/Flyangz/Data-Science-and-Engineering/tree/master/Programming/algorithm)
+    - [Algorithm](https://github.com/Flyangz/Data-Science-and-Engineering/tree/master/Programming/algorithm)  
         Princeton Algorithm Part1(unfinished) and other basic algorithm
 
 - Other  
