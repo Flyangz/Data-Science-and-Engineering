@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: Coupon-Passbook
+  datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/passbook?useSSL=false
+      username: root
+      password: password
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: passbook
+    listener:
+      concurrency: 4
+  data:
+    hbase:
+      quorum: localhost:2181
+      rootDir: file:////Users/flyang/Documents/self-teaching/Output/HBase
+      nodeParent: /hbase
+  redis:
+    host: localhost
+    port: 6379
+
+server:
+  port: 9528
+
+logging:
+  file: coupon-passbook.log
+  level: debug

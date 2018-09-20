@@ -1,0 +1,63 @@
+1. 上传优惠券 token
+    GET: localhost/upload
+    merchantsId - 21
+    PassTemplateId: 722210b027ad0f3fdbed64818e9f3cb0
+
+2. 创建用户 -- 用户 134303
+    POST: localhost:9528/passbook/createuser
+    {
+        "baseInfo": {
+            "name": "草",
+            "age": 10,
+            "sex": "m"
+        },
+        "otherInfo": {
+            "phone": "1234567890",
+            "address": "地球"
+        }
+    }
+
+3. 库存信息
+    GET: localhost:9528/passbook/inventoryinfo?userId=134303
+
+4. 获取优惠券 -- 获取的是带有 token 的优惠券
+    POST: localhost:9528/passbook/gainpasstemplate
+    {
+        "userId": 134303,
+        "passTemplate": {
+            "id": 21,
+            "title": "优惠券-2",
+            "hasToken": true
+        }
+    }
+
+5. userpassinfo
+    GET: localhost:9528/passbook/userpassinfo?userId=134303
+
+6. userusedpassinfo
+    GET: localhost:9528/passbook/userusedpassinfo?userId=134303
+
+7. userusepass
+    POST: localhost:9528/passbook/userusepass
+    {
+        "userId": 134303,
+        "templateId": "722210b027ad0f3fdbed64818e9f3cb0"
+    }
+
+8. 创建评论信息
+    POST: localhost:9528/passbook/createfeedback
+    {
+        "userId": 134303,
+        "type": "app",
+        "templateId": -1,
+        "comment": "学习分布式卡包应用"
+    }
+    {
+        "userId": 134303,
+        "type": "pass",
+        "templateId": "722210b027ad0f3fdbed64818e9f3cb0",
+        "comment": "学习分布式卡包应用"
+    }
+
+9. 查看评论信息
+    GET: localhost:9528/passbook/getfeedback?userId=134303

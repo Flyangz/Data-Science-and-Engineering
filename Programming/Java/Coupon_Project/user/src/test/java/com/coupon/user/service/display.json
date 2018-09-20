@@ -1,0 +1,18 @@
+{
+  "data": [
+    {
+      "comment": "优惠券评论",
+      "templateId": "134f2d2a1e78e985805c7bc5ccde2570",
+      "type": "pass",
+      "userId": 523930
+    },
+    {
+      "comment": "分布式卡包应用！",
+      "templateId": "-1",
+      "type": "app",
+      "userId": 523930
+    }
+  ],
+  "errorCode": 0,
+  "errorMsg": ""
+}
