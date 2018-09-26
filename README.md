@@ -31,13 +31,15 @@ This repository records parts of notes and codes that I wrote when I taught myse
 
     - [Java](https://github.com/Flyangz/Data-Science-and-Engineering/tree/master/Programming/Java)
 
-        Notes from *Core Java SE 8 for the Impatient* and *Java 8 in Action*
+        Notes about java foundations, java8, data structure, concurrent programming, jvm, design pattern, spring and so on.  
+        Java笔记，包括基础、java8、数据结构、并发编程、jvm、设计模式、spring等。
 
-        - [Coupon_Project](https://github.com/Flyangz/Data-Science-and-Engineering/tree/master/Programming/Java/Coupon_Project)  分布式优惠券系统后台项目
+        - [Coupon_Project](https://github.com/Flyangz/Data-Science-and-Engineering/tree/master/Programming/Java/Coupon_Project)  
+        分布式优惠券系统后台项目
 
     - [Scala](https://github.com/Flyangz/Data-Science-and-Engineering/tree/master/Programming/Scala)
 
-        Notes for using Spark
+        Notes about scala for using Spark
     - [Python](https://github.com/Flyangz/Data-Science-and-Engineering/tree/master/Programming/Python)
 
         Exercises from MITx: 6.00.1x and 6.00.2x
