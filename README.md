@@ -24,7 +24,7 @@ This repository records parts of notes and codes that I wrote when I taught myse
              Spark相关项目，如网站日志分析、流处理、机器学习等。
 
     - Data Science
-        - [ML Fundamentals](https://github.com/Flyangz/Data-Science-and-Engineering/tree/master/Data_Science_and_Engineering/Data_Science/Machine_Learning_Fundamentals)
+        - [ML Fundamentals](https://github.com/Flyangz/Data-Science-and-Engineering/tree/master/Data_Science_and_Engineering/Data_Science/Machine_Learning_Fundamentals)  
         Notes from *ISLR*, *Hands-On Machine Learning with Scikit-Learn* and *Machine Learning Fundamentals edX*  
         机器学习相关笔记
            
