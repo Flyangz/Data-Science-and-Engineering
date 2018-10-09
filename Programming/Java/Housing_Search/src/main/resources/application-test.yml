@@ -1,0 +1,10 @@
+spring:
+
+  # 内存数据库，用于测试？不需要实际连接数据库
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:test
+    schema:
+      - classpath:db/schema.sql
+    data:
+      - classpath:db/data.sql

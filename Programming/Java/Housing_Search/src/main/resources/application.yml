@@ -1,0 +1,47 @@
+spring:
+  profiles:
+    active:
+      - dev
+
+  # session 会话存储类型。存在 Redis 就不需要每次启动程序都要重新进行用户登录
+  session:
+    store-type: redis # 之前用 HASH_MAP
+
+  jpa:
+    show-sql: true
+
+    # 使得对数据库的操作只进行格式验证，而不会真的进行增删改
+    hibernate:
+      ddl-auto: validate
+
+  # thymeleaf 默认的 mode 是已经废弃的 HTML5 ，要改掉
+  thymeleaf:
+    mode: HTML
+    prefix: classpath:/templates/
+    suffix: .html
+
+  devtools:
+    restart:
+      exclude: templates/**,static/** # 这些内容的更新不会产生热加载
+
+  http:
+    multipart:
+      enabled: true
+      location: /Users/flyang/IdeaProjects/Housing_Search/tmp/
+      file-size-threshold: 5MB
+      max-request-size: 20MB
+
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: housingsearch
+
+# 关闭HTTP基本验证，开发时免密码登录
+security:
+  basic:
+    enabled: false
+
+server:
+  error:
+    whitelabel:
+      enabled: false # 关闭默认异常界面，自己来弄

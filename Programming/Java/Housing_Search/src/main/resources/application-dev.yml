@@ -1,0 +1,34 @@
+spring:
+   datasource:
+       driver-class-name: com.mysql.jdbc.Driver
+       url: jdbc:mysql://localhost:3306/housingsearch?useSSL=false
+       username: root
+       password: password
+
+   # 关闭thymeleaf的缓存，使得一些修改能够马上得到实现。
+   thymeleaf:
+       cache: false
+
+   redis:
+     database: 0
+     host: localhost
+     port: 6379
+     timeout: 3000
+     pool:
+       max-idle: 1
+
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: debug
+#    com:
+#      es:
+#        service:
+#          search: debug
+
+elasticsearch:
+  cluster:
+    name: housingsearch
+  host: localhost
+  port: 9300
