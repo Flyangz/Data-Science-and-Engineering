@@ -22,6 +22,8 @@ This repository records parts of notes and codes that I wrote when I taught myse
 
              *Web Log Analysis Project*, *Streaming Process Project* and *Titanic in Spark*  
              Spark相关项目，如网站日志分析、流处理、机器学习等。
+         - [DataBase](https://github.com/Flyangz/Data-Science-and-Engineering/tree/master/Data_Science_and_Engineering/Data_Engineering/DataBase)  
+         数据库相关笔记，主要是MySQL
 
     - Data Science
         - [ML Fundamentals](https://github.com/Flyangz/Data-Science-and-Engineering/tree/master/Data_Science_and_Engineering/Data_Science/Machine_Learning_Fundamentals)  
@@ -42,6 +44,8 @@ This repository records parts of notes and codes that I wrote when I taught myse
 
         - [Coupon_Project](https://github.com/Flyangz/Data-Science-and-Engineering/tree/master/Programming/Java/Coupon_Project)  
         分布式优惠券系统后台项目代码
+        - [HousingSearch_Project](https://github.com/Flyangz/Data-Science-and-Engineering/tree/master/Programming/Java/Housing_Search)  
+        房屋信息搜索网站项目代码
 
     - [Scala](https://github.com/Flyangz/Data-Science-and-Engineering/tree/master/Programming/Scala)
 
@@ -54,5 +58,5 @@ This repository records parts of notes and codes that I wrote when I taught myse
 - Other  
     - Git and Github  
     - Unix/Linux Foundation  
-    - Mysql
+    - ElasticSearch
     - Redis
